@@ -7,16 +7,28 @@
     <title>Document</title>
     <style>
         body{
-            height: 100vh;
+           
+            /* height: 100vh;
             background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
-            background-position: center top;
+            background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
+            background-attachment: fixed; */
+        
+
+        /* shorthand - background
+        color > image > position > repeat > [size] > attachment
+        */
+
+        background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
+        background-size: cover;
+
         }
+
         main{
            background-color: white; 
-           width: 400px;
+           max-width: 400px;
            padding: 10px;
            margin: auto;
            border: 1px solid darkblue;
@@ -27,6 +39,8 @@
 <body>
     <main>
         <h1>Teste de titulo</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet officiis explicabo aut ipsum, magni, fuga vero, est voluptas assumenda minima nobis earum. Aperiam provident officiis inventore impedit minima? Voluptatibus, hic! Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo officiis, ab a voluptates assumenda alias tenetur eum natus corporis? Eum, iure dolorem nesciunt est consectetur temporibus veritatis molestias quos autem. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis et amet placeat voluptatum modi quo, velit nesciunt doloremque impedit dolores? Doloremque, illo cumque omnis porro maxime minima numquam eius voluptatum.</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet officiis explicabo aut ipsum, magni, fuga vero, est voluptas assumenda minima nobis earum. Aperiam provident officiis inventore impedit minima? Voluptatibus, hic! Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo officiis, ab a voluptates assumenda alias tenetur eum natus corporis? Eum, iure dolorem nesciunt est consectetur temporibus veritatis molestias quos autem. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis et amet placeat voluptatum modi quo, velit nesciunt doloremque impedit dolores? Doloremque, illo cumque omnis porro maxime minima numquam eius voluptatum.</p>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet officiis explicabo aut ipsum, magni, fuga vero, est voluptas assumenda minima nobis earum. Aperiam provident officiis inventore impedit minima? Voluptatibus, hic! Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo officiis, ab a voluptates assumenda alias tenetur eum natus corporis? Eum, iure dolorem nesciunt est consectetur temporibus veritatis molestias quos autem. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis et amet placeat voluptatum modi quo, velit nesciunt doloremque impedit dolores? Doloremque, illo cumque omnis porro maxime minima numquam eius voluptatum.</p>
     </main>
 </body>
