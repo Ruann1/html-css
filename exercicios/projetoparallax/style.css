@@ -1,0 +1,77 @@
+@charset 'UTF-8';
+
+@font-face {
+    font-family: cs1;
+    src: url(Fontes/cs1.6.otf) format(opentype);
+}
+
+@font-face {
+    font-family: cssource;
+    src: url(Fontes/cssource.ttf) format(truetype);
+}   
+
+@font-face {
+    font-family: csgo;
+    src: url(Fontes/csgo.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: cs2;
+    src: url(Fontes/cs2.ttf) format(truetype);
+}
+
+
+
+:root {
+
+    --cor1: #D6D9BF;
+    --cor2: #F2A30F;
+    --cor3: #D97904;
+    --cor4: #BF5B04;
+    --cor5: #401E01;
+
+    --fontepadrao: Arial, Helvetica, sans-serif;
+    --fontecs1: cs1;
+    --fontecssource: cssource;
+    --fontecsgo: csgo;
+    --fontecs2: cs2
+}
+
+*{
+    margin: 0px;
+}
+
+header{
+    background-color: var(--cor5);
+    padding: 50px 10px;
+    text-align: center;
+    font-family: cs1;
+    color: white;
+    border-radius: 0px 0px 3px;
+}
+
+.titulo{
+    font-size: 7vh;
+    text-shadow: 3px 3px 5px black;
+}
+
+.sub{
+    font-size: 3.5vh;
+    padding-top: 8px;
+    text-shadow: 3px 3px 5px black;
+}
+
+
+.aberta1{
+    height:50vh;
+    background-image: url(ImagensP/imagem2.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#texto1{
+    display: inline-block;
+    padding: 5px;
+    text-align: justify left;
+    background-color: #d6d9bf65;
+}
