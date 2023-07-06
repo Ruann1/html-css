@@ -79,11 +79,33 @@ section{
 
 }
 
+.tituloh1{
+    display: flexbox;
+    background-color: hsla(28, 96%, 38%, 0.911);
+    padding: 0px 0px 10px;
+    border-radius: 0px 5px 0px 0px;
+    min-width: 200px;
+    max-width: 320px;
+    font-family: var(--fontecs1);
+    text-align: center;
+    color: black;
+    text-shadow: 1px 1px 3px #D6D9BF;
+}
+
 #texto1{
-    display: inline-block;
-    padding: 5px;
-    min-width: 100px;
-    max-width: 200px;
-    background-color: #bf5b048e;
+    display: flexbox;
+    padding: 10px;
+    min-height: 100px;
+    max-height: 400px;
+    min-width: 200px;
+    max-width: 300px;
+    font-family: var(--fontecs1);
+
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    text-align: justify;
+    padding: 10px;
+    background-color: hsla(28, 96%, 38%, 0.911);
+    border-radius: 0px 0px 5px;
 }
 
