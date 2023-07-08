@@ -75,8 +75,6 @@ section{
     background-size: cover;
     background-attachment: fixed;
     box-shadow: 8px -8px 20px 3px inset black;
-    border-radius: 0px 0px 5px 0px;
-
 }
 
 .tituloh1{
@@ -117,34 +115,109 @@ section{
     background-size: cover;
     background-attachment: fixed;
     box-shadow: 8px -8px 20px 3px inset black;
-    border-radius: 0px 0px 5px 0px;
 }
 
 .fechada1 > h1{
     display: flexbox;
-    background-color: hsla(28, 96%, 38%, 0.911);
+    margin-left: 750px;
+    background-color: hsla(28, 97%, 13%, 0.915);
     padding: 0px 10px 10px 10px;
-    border-radius: 0px 5px 0px 0px;
-    min-width: 200px;
-    max-width: 320px;
+    border-radius: 5px 0px 0px 0px;
+    min-width: 350px;
+    max-width: 550px;
     font-family: var(--fontecs1);
     text-align: center;
-    color: black;
-    text-shadow: 1px 1px 3px #D6D9BF;
+    color: #ffffff;
+    text-shadow: 1px 3px 3px #000000;
 }
 
 .fechada1 > p{
     display: flexbox;
+    margin-left: 750px;
     padding: 10px 30px 10px 10px;
-    min-height: 100px;
-    max-height: 400px;
-    min-width: 200px;
-    max-width: 300px;
+    min-height: 200px;
+    max-height: 500px;
+    min-width: 350px;
+    max-width: 550px;
     font-family: var(--fontecs1);
 
     color: white;
     text-shadow: 2px 2px 5px black;
     text-align: justify;
-    background-color: hsla(28, 96%, 38%, 0.911);
-    border-radius: 0px 0px 5px;
+    background-color: hsla(28, 97%, 13%, 0.915);
+    border-radius: 0px 0px 0px 5px;
 }
+
+.aberta2{
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    background-image: url(ImagensP/imagem1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.aberta2 > h1{
+    display: flexbox;
+    font-family: var(--fontecsgo);
+    text-align: center;
+    background-color: var(--cor3);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.632);
+
+    border-radius: 0px 5px 0px 0px;
+    padding: 10px 10px 10px 3px;
+    max-width: 200px;
+    max-width: 400px;
+}
+
+.aberta2 > p{
+    display: flexbox;
+    font-family: var(--fontecsgo);
+    text-align: justify;
+    text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.64);
+    background-color: var(--cor3);
+
+    border-radius: 0px 0px 5px 0px;
+    padding: 10px 10px 10px 3px;
+    min-height: 100px;
+    min-height: 200px;
+    max-width: 200px;
+    max-width: 400px;
+}
+
+.fechada2{
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    background-image: url(ImagensP/imagem4.jpg);
+    background-position: right;
+    background-size: contain;
+    background-attachment: fixed;
+}
+
+.fechada2 > h1{
+    display: flexbox;
+    font-family: var(--fontecsgo);
+    text-align: center;
+    background-color: var(--cor3);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.632);
+
+    border-radius: 0px 5px 0px 0px;
+    padding: 10px 10px 10px 3px;
+    max-width: 200px;
+    max-width: 400px;
+}
+
+.fechada2 > p{
+    display: flexbox;
+    font-family: var(--fontecsgo);
+    text-align: justify;
+    text-shadow: 1px 1px 3px rgba(255, 255, 255, 0.64);
+    background-color: var(--cor3);
+
+    border-radius: 0px 0px 5px 0px;
+    padding: 10px 10px 10px 3px;
+    min-height: 100px;
+    min-height: 200px;
+    max-width: 200px;
+    max-width: 400px;
+}
+
