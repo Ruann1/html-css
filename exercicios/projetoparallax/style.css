@@ -82,7 +82,7 @@ section{
 .tituloh1{
     display: flexbox;
     background-color: hsla(28, 96%, 38%, 0.911);
-    padding: 0px 0px 10px;
+    padding: 0px 10px 10px 10px;
     border-radius: 0px 5px 0px 0px;
     min-width: 200px;
     max-width: 320px;
@@ -94,7 +94,7 @@ section{
 
 #texto1{
     display: flexbox;
-    padding: 10px;
+    padding: 10px 30px 10px 10px;
     min-height: 100px;
     max-height: 400px;
     min-width: 200px;
@@ -104,8 +104,47 @@ section{
     color: white;
     text-shadow: 2px 2px 5px black;
     text-align: justify;
-    padding: 10px;
     background-color: hsla(28, 96%, 38%, 0.911);
     border-radius: 0px 0px 5px;
 }
 
+
+.fechada1{
+    padding-top: 20vh;
+    padding-bottom: 20vh;
+    background-image: url(ImagensP/imagem3.jpg);
+    background-position: top center;
+    background-size: cover;
+    background-attachment: fixed;
+    box-shadow: 8px -8px 20px 3px inset black;
+    border-radius: 0px 0px 5px 0px;
+}
+
+.fechada1 > h1{
+    display: flexbox;
+    background-color: hsla(28, 96%, 38%, 0.911);
+    padding: 0px 10px 10px 10px;
+    border-radius: 0px 5px 0px 0px;
+    min-width: 200px;
+    max-width: 320px;
+    font-family: var(--fontecs1);
+    text-align: center;
+    color: black;
+    text-shadow: 1px 1px 3px #D6D9BF;
+}
+
+.fechada1 > p{
+    display: flexbox;
+    padding: 10px 30px 10px 10px;
+    min-height: 100px;
+    max-height: 400px;
+    min-width: 200px;
+    max-width: 300px;
+    font-family: var(--fontecs1);
+
+    color: white;
+    text-shadow: 2px 2px 5px black;
+    text-align: justify;
+    background-color: hsla(28, 96%, 38%, 0.911);
+    border-radius: 0px 0px 5px;
+}
