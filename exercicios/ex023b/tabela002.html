@@ -18,6 +18,13 @@
             padding: 13px;
         }
 
+        caption{
+            font-size: 1.2em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: #e3e5e9;;
+        }
+
         th{
             background-color: #EAECF0;
             color: black;
@@ -59,10 +66,10 @@
 </head>
 <body>
     <h1>Maiores Públicos</h1>
-    <p>Estes são os dez maiores públicos do Campeonato:</p>
     <!--
         Anatomia para tabelas grandes
         TABLE
+            CAPTION
             THEAD
                TR, TD, TH
             TBODY
@@ -72,13 +79,14 @@
     -->
 
     <table>
+        <caption>Estes são os dez maiores públicos do Campeonato:</caption>
         <thead>
             <tr>
-                <th>N°</th>
-                <th>Público</th>
-                <th>Mandante</th>
-                <th>Placar</th>
-                <th>Visitante</th>
+                <th scope="col">N°</th>
+                <th scope="col">Público</th>
+                <th scope="col">Mandante</th>
+                <th scope="col">Placar</th>
+                <th scope="col">Visitante</th>
             </tr>
         </thead>
         <tbody>
@@ -155,8 +163,8 @@
         </tbody>
         <tfoot>
             <tr>
-                <td class="media">Média</td>
-                <td>62.633</td>
+                <th class="media" scope="row" >Média</th>
+                <td scope="row">62.633</td>
             </tr>
         </tfoot>
     </table>
