@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com tabelas grandes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            border-collapse: collapse;
+        }
+
+        td, th{
+            border: 1px solid black;
+            padding: 13px;
+        }
+
+        th{
+            background-color: #EAECF0;
+            color: black;
+        }
+        
+        td.n{
+            background-color: #EAECF0;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        td.publico{
+            width: 80px;
+            text-align: right;
+        }
+
+        td.time1{
+            width: 130px;
+            text-align: right;
+        }
+
+        td.placar{
+            width: 60px;
+            text-align: center;
+        }
+
+        td.time2{
+            width: 130px;
+            text-align: left;
+        }
+
+        tfoot{
+            background-color: #EAECF0;
+            font-weight: bold;
+            text-align: right;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Maiores Públicos</h1>
+    <p>Estes são os dez maiores públicos do Campeonato:</p>
+    <!--
+        Anatomia para tabelas grandes
+        TABLE
+            THEAD
+               TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+    -->
+
+    <table>
+        <thead>
+            <tr>
+                <th>N°</th>
+                <th>Público</th>
+                <th>Mandante</th>
+                <th>Placar</th>
+                <th>Visitante</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="n">1</td>
+                <td class="publico">65.649</td>
+                <td class="time1">Flamengo</td>
+                <td class="placar">1-0</td>
+                <td class="time2">CSA</td>
+            </tr>
+            <tr>
+                <td class="n">2</td>
+                <td class="publico">65.418</td>
+                <td class="time1">Vasco da Gama</td>
+                <td class="placar">1-4</td>
+                <td class="time2">Flamengo</td>
+            </tr>
+            <tr>
+                <td class="n">3</td>
+                <td class="publico">64.648</td>
+                <td class="time1">Flamengo</td>
+                <td class="placar">6-1</td>
+                <td class="time2">Avai</td>
+            </tr>
+            <tr>
+                <td class="n">4</td>
+                <td class="publico">62.541</td>
+                <td class="time1">Flamengo</td>
+                <td class="placar">0-0</td>
+                <td class="time2">São Paulo</td>
+            </tr>
+            <tr>
+                <td class="n">5</td>
+                <td class="publico">62.510</td>
+                <td class="time1">Flamengo</td>
+                <td class="placar">1-0</td>
+                <td class="time2">Santos</td>
+            </tr>
+            <tr>
+                <td class="n">6</td>
+                <td class="publico">61.390</td>
+                <td class="time1">Flamengo</td>
+                <td class="placar">3-0</td>
+                <td class="time2">Palmeiras</td>
+            </tr>
+            <tr>
+                <td class="n">7</td>
+                <td class="publico">61.246</td>
+                <td class="time1">Flamengo</td>
+                <td class="placar">4-1</td>
+                <td class="time2">Ceará</td>
+            </tr>
+            <tr>
+                <td class="n">8</td>
+                <td class="publico">61.021</td>
+                <td class="time1">Vasco da Gama</td>
+                <td class="placar">1-1</td>
+                <td class="time2">Chapecoense</td>
+            </tr>
+            <tr>
+                <td class="n">9</td>
+                <td class="publico">60.961</td>
+                <td class="time1">Flamengo</td>
+                <td class="placar">3-1</td>
+                <td class="time2">Bahia</td>
+            </tr>
+            <tr>
+                <td class="n">10</td>
+                <td class="publico">60.947</td>
+                <td class="time1">Flamengo</td>
+                <td class="placar">6-1</td>
+                <td class="time2">Goiás</td> 
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td class="media">Média</td>
+                <td>62.633</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
