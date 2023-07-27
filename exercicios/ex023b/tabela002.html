@@ -56,6 +56,17 @@
             text-align: left;
         }
 
+        tbody > tr:nth-child(odd){
+            background-color: white;
+            font-weight: bold;
+        }
+        tbody > tr:nth-child(even){
+            /* 2n - para intercalar
+            odd ou (2n-1) - para números impares serem pintados 
+            even ou (2n) - para números pares serem pintados */
+            background-color: #EAECF0;
+        }
+
         tfoot{
             background-color: #EAECF0;
             font-weight: bold;
