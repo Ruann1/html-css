@@ -7,24 +7,27 @@
 </head>
 <body>
     <h1>Exemplo de Formulário</h1>
-    <form action="cadastro.php" method="get">
-        <p>
-            <label for="inome">Nome:</label>
-            <input type="text" name="nome" id="inome" autocomplete="on" placeholder="Nome Completo" required>
-        </p>
-        <p>
-            <label for="iemail">E-mail:</label>
-            <input type="email" name="email" id="ie-mail" autocomplete="email" placeholder="E-mail principal" required>
-        </p>
-        <p>
-            <label for="icelular">Telefone:</label>
-            <input type="tel" name="tel" id="icelular" autocomplete="tel" placeholder="(21) 4444-5555" pattern="^\(\d{2}\)d{4,5}-\d{4}$" required>
-        </p>
-        <!--Estudar mais sobre RegEx-->
-        <p>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Limpar">
-        </p>
-    </form>
+    <fieldset>
+        <legend>Dados Pessoais</legend>
+        <form action="cadastro.php" method="get">
+            <p>
+                <label for="inome">Nome:</label>
+                <input type="text" name="nome" id="inome" autocomplete="on" placeholder="Nome Completo" required>
+            </p>
+            <p>
+                <label for="iemail">E-mail:</label>
+                <input type="email" name="email" id="ie-mail" autocomplete="email" placeholder="E-mail principal" required>
+            </p>
+            <p>
+                <label for="icelular">Telefone:</label>
+                <input type="tel" name="tel" id="icelular" autocomplete="tel" placeholder="(21) 4444-5555" pattern="^\(\d{2}\)d{4,5}-\d{4}$" required>
+            </p>
+            <!--Estudar mais sobre RegEx-->
+        </fieldset>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </form>
 </body>
 </html>
