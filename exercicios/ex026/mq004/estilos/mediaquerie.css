@@ -1,0 +1,59 @@
+@charset 'UTF-8';
+
+/* Todas as demais mídias */
+
+/* Typical device breakpoints
+------------------------------
+Telas Pequenas: até 600px
+Celulares: de 600px até 768px
+Tablets: de 768px até 992px
+Desktop: de 992px até 1200px
+Grandes Tela: Acima de 1200px
+*/
+
+@media print {/*Impressão*/
+    
+     *{
+        font-family: 'Courier New', Courier, monospace;
+     }
+
+     body{
+        background-image: url(../imagens/back-print.jpg); /*Desnecessário*/
+     }
+
+     img#impressora{
+        margin: auto;
+     }
+
+     main{
+        border: 2px black solid;
+        width: 90vw;
+     }
+
+     main h1{
+        text-shadow: none;
+        color: black;
+     }
+
+     main::after{
+        content: 'Muito obrigado por visitar nosso site';
+        text-decoration: overline;
+     }
+
+img#celular{display:none}
+img#tablet{display: none;}
+img#impressora{display: block;}
+img#pc{display: none;}
+img#tv{display: none;}
+
+}
+
+
+
+/*Não precisa colocar o breakpoint do celular, pois já fizemos um código para ele no outro arquivo de estilo */
+
+@media screen and (min-width:768px) and (max-width: 992px)  {/*Tablet*/}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {/*Desktop*/}
+
+@media screen and (min-width:1200px) {/*Grandes Telas*/}
