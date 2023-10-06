@@ -23,13 +23,19 @@ menu h1{
 
 menu li{
     background-color: rgb(92, 91, 91);
-    padding: 5px;
+    padding: 8px;
+    border-top: black 1px solid;
 }
 
 menu a{
     text-decoration: none;
     text-align: center;
     color: white;
+
+}
+
+menu ul > li > a:hover{
+    background-color: aquamarine;
 }
 
 main{
@@ -48,4 +54,5 @@ main h2{
 main p{
     padding: 5px;
     text-indent: 20px;
+    text-align: justify;
 }
