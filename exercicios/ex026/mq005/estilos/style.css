@@ -11,31 +11,36 @@ html, body{
     background-color: lightgray;
 }
 
+header{
+    background-color: rgb(148, 148, 148);
+}
+
+menu > h1{
+    padding: 10px;
+    text-align: center;
+}
+
 
 menu{
-    background-color: rgb(155, 155, 155);
+    display: block;
 }
 
-menu h1{
-    text-align: center;
+menu > ul{
+    list-style-type: none;
+}
+
+menu > ul > li > a{
+    display: block;
     padding: 10px;
-}
-
-menu li{
-    background-color: rgb(92, 91, 91);
-    padding: 8px;
-    border-top: black 1px solid;
-}
-
-menu a{
     text-decoration: none;
     text-align: center;
+    background-color: rgb(87, 87, 87);
     color: white;
-
+    border-top: 2px solid gray;
 }
 
-menu ul > li > a:hover{
-    background-color: aquamarine;
+menu > ul > li > a:hover{
+    background-color: gray;
 }
 
 main{
