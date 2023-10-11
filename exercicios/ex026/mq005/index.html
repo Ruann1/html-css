@@ -9,11 +9,11 @@
 </head>
 <body>
     <header>
-        <menu>
-            <span class="material-symbols-outlined">
-                menu
-                </span>
-            <h1>Meu Site</h1>
+        <h1>Meu site</h1>
+        <span id="itens" class="material-symbols-outlined" onclick="clickmenu()">
+            menu
+            </span>
+        <menu id="opcoes">
             <ul>
                 <li><a href="">Opção 1</a></li>
                 <li><a href="">Opção 2</a></li>
@@ -33,5 +33,14 @@
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam tenetur voluptate cumque fuga autem eligendi at in! Accusantium, fugiat earum expedita repudiandae aperiam, fuga aliquam voluptatum illo, eius harum quod?</p>
         </article>
     </main>
+    <script>
+      function clickmenu() {
+        if (opcoes.style.display == 'block') {
+        opcoes.style.display = "none"
+        } else{
+            opcoes.style.display = "block"
+        }
+      }
+    </script>
 </body>
 </html>

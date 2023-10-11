@@ -15,17 +15,31 @@ header{
     background-color: rgb(148, 148, 148);
 }
 
-menu > h1{
+header > h1{
     padding: 10px;
     text-align: center;
 }
 
-
-menu{
+span#itens {
     display: block;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    padding: 10px;
+    background-color: rgb(87, 87, 87);
 }
 
-menu > ul{
+span#itens:hover{
+    background-color: white;
+    color: black;
+}
+
+menu{
+    display: none;
+}
+
+
+menu ul{
     list-style-type: none;
 }
 
