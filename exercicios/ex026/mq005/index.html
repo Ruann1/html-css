@@ -6,8 +6,9 @@
     <title>Media Query</title>
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="mediaquerie.css">
 </head>
-<body>
+<body onresize="mudoutamanho()">
     <header>
         <h1>Meu site</h1>
         <span id="itens" class="material-symbols-outlined" onclick="clickmenu()">
@@ -34,6 +35,15 @@
         </article>
     </main>
     <script>
+
+      function mudoutamanho(){
+        if (window.innerWidth >= 768) {
+            itens.style.display = 'block'
+        } else {
+            itens.style.display = 'none'
+        }
+      }
+
       function clickmenu() {
         if (opcoes.style.display == 'block') {
         opcoes.style.display = "none"
